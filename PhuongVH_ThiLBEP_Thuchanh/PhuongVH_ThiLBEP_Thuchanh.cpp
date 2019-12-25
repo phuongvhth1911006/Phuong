@@ -34,6 +34,8 @@ int main(){
 	}while((a+b<=c) || (a+c<=b) || (b+c<=a) || a<=0 || b<=0 || c<=0);
 	printf("Chuc mung ban da nhap vao dung 3 canh cua tam giac.\n\n");
 	//in ra ket qua
-	printf("Dien tich cua tam giac co 3 canh a=%lf, b=%lf, c=%lf la: %lf",a,b,c,area(a,b,c));
+	printf("Tam giac co 3 canh a=%lf, b=%lf, c=%lf",a,b,c);
+	printf("\nChu vi cua tam giac: %lf",perimeter(a,b,c)*2);
+	printf("\nDien tich cua tam giac: %lf",area(a,b,c));
 	return 0;
 }
