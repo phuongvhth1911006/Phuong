@@ -1,0 +1,25 @@
+<p id="demo"></p>
+<p class="test"></p>
+<p class="test"></p>
+<script>
+    document.getElementById("demo").innerHTML="Hello";
+    document.getElementsByTagName("p")[0].innerHTML = "Hello";
+    document.getElementsByClassName("test")[0].innerHTML = "Hello";
+</script>
+<img id="image" src="../imgs/pic1.PNG">
+<script>
+    document.getElementById('image').src="../imgs/pic2.PNG";
+</script>
+<input type="text" id="myText" value="Hello">
+<script>
+    document.getElementById("myText").value= "Hello";
+</script>
+<script>
+    document.getElementById('demo').style.color='red';
+    document.getElementById('demo').style.fontSize='40px';
+    document.getElementById('demo').style.display='none';
+</script>
+<button id="demo1">Click me</button>
+<script>
+    document.getElementById('demo1').addEventListener("click",myFunction);
+</script>
